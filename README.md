@@ -1,1 +1,4 @@
-# es6-ch2
+= Learning Javascript, 3rd Edition
+== Chapter 2: JavaScript Development Tools
+
+In this chapter we are learning about Git and other dev tools.
