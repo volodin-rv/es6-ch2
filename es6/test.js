@@ -1,3 +1,4 @@
+
 'use strict';
 //средство еs6: блок 'левых' объявлений
 const sentences = [
