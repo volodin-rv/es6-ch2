@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+//  console.log(sum(range(1, 10)));
+
+
+  function range(a, b) {
+    var
+      array = [],
+      i=0;
+    if (a > b) {
+      for (i = b; i <= a; i++) {
+        array.push(i);
+      }
+    } else {
+      for (i = a; i <= b; i++) {
+        array.push(i);
+      }
+    }
+    return array;
+  }
+
+  function sum(mas) {
+    var summa = 0;
+    for (var i=0; i <mas.length; i++) {
+      summa = summa + mas[i];
+    }
+    return summa;
+  }
+  console.log(range(7, 1));
+  console.log(sum(range(1, 10)));
+</script>
+</body>
+</html>
